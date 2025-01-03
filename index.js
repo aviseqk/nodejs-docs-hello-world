@@ -55,7 +55,7 @@ const router = express.Router();
 
 // Hello World for index page
 app.get('/', function (req, res) {
-    return res.send("Hello World!");
+    return res.send("Hello World! This is my second Azure Web App and the first Node.js one!");
 })
 
 app.get('/api', function (req, res) {
